@@ -17,7 +17,7 @@ find_package(catkin REQUIRED COMPONENTS
     pcl_conversions
     )
 
-find_package(OpenCV 4 REQUIRED)
+find_package(OpenCV REQUIRED)
 
 find_package(octomap REQUIRED)
 

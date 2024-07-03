@@ -39,6 +39,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 #pragma once
 
+#include <sophus/so3.hpp>
 #include <sophus/se3.hpp>
 #include <sophus/sim3.hpp>
 

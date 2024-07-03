@@ -64,7 +64,7 @@ mkdir -p build && cd build
 cmake ..
 make -j$(nproc) 
 sudo make install
-sudo apt-get install -y libflann-dev libvtk6-dev libboost-all-dev ros-noetic-pcl-ros (for ubuntu20.04) libfmt-dev
+sudo apt-get install -y libflann-dev libvtk6-dev libboost-all-dev ros-noetic-pcl-ros (for ubuntu20.04)
 cd ../../pcl
 mkdir -p build && cd build
 cmake ..
